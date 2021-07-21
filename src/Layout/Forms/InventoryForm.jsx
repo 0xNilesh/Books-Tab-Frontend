@@ -254,20 +254,6 @@ const InventoryForm = (props) => {
 												autoFocus
 											/>
 										</Grid>
-										<Grid item>
-											<TextInput
-												control={control}
-												register={register}
-												className={classes.textField}
-												variant="outlined"
-												required
-												defaultValue="0"
-												label="Opening Stock"
-												name="openingStock"
-												size="small"
-												autoFocus
-											/>
-										</Grid>
 									</Grid>
 								</Grid>
 								<Grid item>
